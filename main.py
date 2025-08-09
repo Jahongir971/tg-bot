@@ -8,15 +8,15 @@ from datetime import datetime, timedelta, date
 from aiogram.enums import ChatType, ChatMemberStatus
 from aiogram.exceptions import TelegramBadRequest 
 
-TOKEN = "7988713798:AAFjobLVOkVsInyMjERsyfNeqxLgiGrpWDc"
+TOKEN = "8352264484:AAEzVuQsql0wDOJmz-L1ysYA6AJaYT1mfYM"
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
 
-admins = [7689058379, 6826046029, 6765230850]
+admins = [7900751118,7900751118]
 CHANNEL_ID = ["@loyiharobotss", -1002640320474, "@Atomic_MANGA_Uz"]
 #CHANNEL_ID = "@loyiharobotss"
-ADMIN_USERNAME = "Majidxon008" #---- ADMIN USERNAME KIRITING @ BELGISI BILAN
+ADMIN_USERNAME = "@PayFiuz_Helper" #---- ADMIN USERNAME KIRITING @ BELGISI BILAN
 
 async def set_bot_commands():
     commands = [
@@ -3381,3 +3381,4 @@ if __name__ == "__main__":
     print("BOT ISHGA TUSHDI")
     create_database()
     asyncio.run(main())
+
